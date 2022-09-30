@@ -1,0 +1,66 @@
+body {
+    background-color: #e5e5f7;
+    opacity: 0.8;
+    background-image: linear-gradient(30deg, #310031 12%, transparent 12.5%, transparent 87%, #310031 87.5%, #310031), linear-gradient(150deg, #310031 12%, transparent 12.5%, transparent 87%, #310031 87.5%, #310031), linear-gradient(30deg, #310031 12%, transparent 12.5%, transparent 87%, #310031 87.5%, #310031), linear-gradient(150deg, #310031 12%, transparent 12.5%, transparent 87%, #310031 87.5%, #310031), linear-gradient(60deg, #31003177 25%, transparent 25.5%, transparent 75%, #31003177 75%, #31003177), linear-gradient(60deg, #31003177 25%, transparent 25.5%, transparent 75%, #31003177 75%, #31003177);
+    background-size: 20px 35px;
+    background-position: 0 0, 0 0, 10px 18px, 10px 18px, 0 0, 10px 18px;
+}
+
+
+#logo {
+    border-radius: 50%;
+    height: 10rem;
+}
+
+div#icons {
+    align-items: center;
+    padding-top: 2%;
+}
+
+div#icons > img {
+    height: 4em;
+    border-radius: 50%;
+}
+
+.icon {
+    height: 2.5rem;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#center {
+    padding-top: 3%;
+}
+
+#title {
+    font-family: 'Bungee Spice', cursive;
+    font-size: 4rem;
+    padding-bottom: 1%;
+}
+
+#text {
+    padding-top: 3%;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-weight: 300;
+}
+
+a > svg {
+    height: 30px;
+    color: #ff5100;
+    padding-left: 20px;
+    
+}
+
+a > svg:hover {
+    color: #b60098;
+}
+
+a.nav-link {
+    padding-right: 3%;
+}
+
+#portfolio {
+    font-family: 'Bungee Spice', cursive;
+
+}
